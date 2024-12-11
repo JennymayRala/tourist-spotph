@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Spots in the Philippines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menu" class="menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+  
+    <div id="main">
+        <span class="openbtn" onclick="openMenu()">&#9776;</span>
+
+        <div id="search-container" class="search-container">
+            <h2 id="search-heading">Search for Tourist Spots in the Philippines</h2>
+            <p id="search-description">Use the search bar below to find popular tourist destinations in the Philippines. You can search for places like "Boracay", "Palawan", or any other destination you're interested in.</p>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" id="search-bar" placeholder="Search for tourist spots..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
